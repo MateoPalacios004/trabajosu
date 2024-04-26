@@ -1,22 +1,25 @@
 #include <stdio.h>
 #include <math.h>
 
-int main()
+float main()
 {
-   int monto,i,t;
+   float monto,i,t,x,p1;
+  
   printf("Ingresar el monto: \n");
-  scanf("%d",&monto);
-
+  scanf("%f",&monto);
+  
    printf("Ingresar el tasa de interes: \n");
-  scanf("%d",&i);
+  scanf("%f",&i);
   
    printf("Ingresar el periodo anual: \n");
-  scanf("%d",&t);
-  
+  scanf("%f",&t);
+
   p1= monto*i*t;
   
    printf("El interes total a pagar es de %f ",p1);
   
-
+  
+  
+ 
     return 0;
 }
